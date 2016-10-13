@@ -1,0 +1,24 @@
+{
+  "name": "arctic-web",
+  "version": "1.0.0",
+  "description": "Arctic Web Site",
+  "main": "",
+  "scripts": {
+    "local": "./node_modules/.bin/harp server src & ./node_modules/.bin/browser-sync start -b 'google-chrome' --proxy localhost:9000 --files 'src'",
+    "compile": "./node_modules/.bin/harp compile src dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Synapse791/arctic-web.git"
+  },
+  "author": "Iain Earl <synapse791@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Synapse791/arctic-web/issues"
+  },
+  "homepage": "https://github.com/Synapse791/arctic-web#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.3",
+    "harp": "^0.21.0"
+  }
+}
