@@ -19,3 +19,6 @@ npm run compile
 ```
 
 This will compile down the code into static files and place them in the `dist` directory.
+
+## Current design
+![Current design](https://raw.githubusercontent.com/Synapse791/arctic-web/master/design.png)
